@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        body {
+            background-image: url(pic.jpg);
+            background-size: cover;
+            /* background-position: center; */
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .navbar li {
+            display: inline-block;
+            margin: 25px;
+            list-style: none;
+        }
+
+        .navbar li a {
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .home:hover {
+            color: black;
+        }
+
+        .contact:hover {
+            color: red;
+        }
+
+        .about:hover {
+            color: blue;
+        }
+
+        .help:hover {
+            color: yellow;
+        }
+
+        .faq:hover {
+            color: blueviolet;
+        }
+
+        .logo {
+            padding-left: 45px;
+            font-size: 35px;
+            color: brown;
+            font-weight: bold;
+        }
+    </style>
+    <title>Document</title>
+    <!-- create a web page with 5 a tag similar to a navigation bar. eack link sholud change to a different color when it is hovered over -->
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <p>logo</p>
+        </div>
+        <ul>
+            <li><a class="home" href="#">Home</a></li>
+            <li><a class="contact" href="#">Contact Us</a></li>
+            <li><a class="about" href="#">About Us</a></li>
+            <li><a class="help" href="#">Help</a></li>
+            <li><a class="faq" href="#">FaQ</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>

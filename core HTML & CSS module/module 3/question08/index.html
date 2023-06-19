@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      text-decoration: none;
+      line-height: 1.5;
+    }
+
+    body {
+      font-size: 20px;
+      background-color: antiquewhite;
+    }
+
+    main,
+    footer {
+      margin: 35px;
+    }
+
+    .navbar {
+      background-color: lightsteelblue;
+    }
+
+    .logo p {
+      font-size: 30px;
+      color: brown;
+      font-weight: bold;
+      padding-left: 35px;
+    }
+
+    .navdiv {
+      display: flex;
+      text-align: center;
+      justify-content: space-between;
+
+    }
+
+    .navdiv li {
+      display: inline-block;
+      margin: 10px;
+    }
+
+    .navdiv a {
+      margin: 50px;
+      font-size: 25px;
+      color: black;
+      font-weight: bolder;
+
+    }
+  </style>
+  <title>Document</title>
+</head>
+<!-- Create a simple we#page with semantic HTML which has the header, main, and footer sections. The
+header section must contain links to navigate to different sections of the webpage. The main section
+must contain three sF#sections about what is HTML. What is emantic HTML and a list of commonl( used
+semantic tags/ In the end, the footer section must contain your name -->
+
+<body>
+  <header id="header">
+    <nav class="navbar">
+      <div class="navdiv">
+        <div class="logo">
+          <p>logo</p>
+        </div>
+        <ul>
+          <li><a href="#header">Header</a></li>
+          <li><a href="#main_area">contenct</a></li>
+          <li><a href="#footer_area">Footer</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main_area">
+    <section class="first_section">
+      <h2>What is HTML?</h2>
+      <p>HTML stands for Hypertext Markup Language. It is the standard markup language used for creating web pages and
+        applications. HTML provides a structured framework for defining the content and layout of a webpage, including
+        text, images, links, tables, forms, and various other elements.</p><br>
+      <p>HTML documents consist of a series of elements, which are represented by tags. Tags are enclosed in angle
+        brackets and appear as pairs, consisting of an opening tag and a closing tag. The opening tag denotes the start
+        of an element, and the closing tag denotes the end of that element. The content between the tags represents the
+        information or structure associated with the element.</p><br><br><br>
+
+    </section>
+    <section class="section_two">
+      <h2>What is semantic HTML ?</h2>
+      <p>
+        Semantic HTML refers to the use of HTML markup elements that convey meaning and structure to both the browser
+        and the developer. It involves using HTML elements that accurately represent the content and purpose of the
+        information they enclose. By using semantic HTML, you can enhance the accessibility, search engine optimization
+        (SEO), and maintainability of your web pages.</p><br>
+      <p>
+        Semantic HTML, combined with proper CSS styling and accessibility considerations, can result in more robust and
+        maintainable web pages that provide a better user experience and are easier to understand and modify for
+        developers. <br><br><br>
+      </p>
+    </section>
+    <section class="section_three">
+      <h2>List of commonly use semantic </h2>
+      <ol>
+        <li>header: Represents the introductory content or a container for a set of introductory content at the
+          beginning of a page or section.</li>
+        <li>nav: Represents a section of a page that contains navigation links.</li>
+        <li>main: Represents the main content of a document. It should be unique within the document and not nested
+          within other semantic elements.</li>
+        <li>article: Represents a self-contained composition in a document, such as a blog post or news article.</li>
+        <li>section: Represents a standalone section of content within a document, such as a chapter or tabbed content.
+        </li>
+        <li>aside: Represents content that is tangentially related to the main content, such as sidebars or pull quotes.
+        </li>
+        <li>footer: Represents the footer of a section or the whole document, typically containing information about the
+          author, copyright, or contact details.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer id="footer_area">
+    <h1>Made by NITISH RAJ.</h1>
+  </footer>
+</body>
+
+</html>

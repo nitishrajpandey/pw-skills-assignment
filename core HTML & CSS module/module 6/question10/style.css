@@ -1,0 +1,36 @@
+body{
+    background-color: azure;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.image_container{
+    margin-top: 150px;
+    border: 2px solid green;
+    margin-left: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 10%;
+    background-color:aquamarine;
+}
+.image_container img{
+    width: 400px;
+    border-radius: 5%;
+}
+.image_container p span{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.image_container p {
+    font-size: 25px;
+}
+.image_container{
+opacity: 0.5;
+}
+.image_container:hover{
+    opacity: 1;
+}

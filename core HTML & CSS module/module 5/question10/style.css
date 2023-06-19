@@ -1,0 +1,15 @@
+body{
+    background-color: #121212;
+}
+h1{
+    color: orchid;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 45px;
+    background-color: palegoldenrod;
+}
+p{
+    color: white;
+    font-size: 25px;
+    line-height: 1.5;
+}

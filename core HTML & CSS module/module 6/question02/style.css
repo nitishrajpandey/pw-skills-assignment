@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+.image{
+    /* margin: 25px; */
+    width: 500px;
+    padding-bottom: 10px;
+    border-radius: 5%;
+}
+.img_container{
+    padding:  15px;
+    background-color: aquamarine;
+    padding-bottom:  45px;
+    border-radius: 8%;
+}
+.img_container p{
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1.2;
+    padding-top: 15px;
+}
