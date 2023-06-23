@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans","Roboto",Arial,sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    height: 60px;  
+    box-shadow: 0px 5px 4px #ced2d4a2;
+}
+.logo img{
+    padding-top: 10px;
+    /* padding-left: 20px; */
+    margin-left: 20px;
+    width: 30px;
+    background-color: white;
+}
+.logo{
+    padding-bottom: 10px;
+}
+.logo span{
+    padding-left: 5px;
+    font-size: 28px;
+    font-weight: 400;
+}
+.navbar ul li{
+    padding-top: 18px;
+    margin-left: 600px;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#2a83ff;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.sign_in{
+    padding-top:8px ;
+}
+.sign_in button{
+    font-size: 18px;
+    background-color: #FFFFFF;
+    text-transform: capitalize;
+    padding:10px 15px;
+    border: 1px solid rgb(221, 218, 218);
+    border-radius: 8%;
+    cursor: pointer;
+}
+
+.button2{
+    padding-top: 8px;
+    margin-right: 20px;
+}
+.button2 button{
+    font-size: 18px;
+    padding:10px 17px;
+    color: white;
+    background-color: #2a83ff;
+    border: none;
+    border-radius: 8%;
+    cursor: pointer;
+}
+
+
+/* main */
+.container1{
+    width: 40%;
+    float: left;
+}
+.container1 h1{
+    padding-top: 120px;
+    text-transform:unset;
+    padding-left: 150px;
+    padding-bottom: 50PX;
+    font-size: 65px;
+}
+.para{
+    padding-left: 150PX;
+    font-size: 20PX;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(78, 77, 77);
+}
+.container2{
+    float: right;
+    margin-top: 30px;
+}
+.container2 img{
+    width: 730px;
+}
+
+.contain_button{
+    margin-top: 50px;
+    padding-left: 150PX;
+    display: inline-block;
+    cursor: pointer;
+}
+.contain_work{
+    display: inline-block;
+    margin-left: 70px;
+}
+.contain_work ul li{
+    list-style: none;
+}
+.contain_work ul li a{
+    text-decoration: none;
+    color:  #2a83ff;
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background-color: #242B2E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.image1{
+    position: relative;
+    left: 52px;
+    z-index: 4;
+}
+.image2{
+    position: relative;
+    /* left: 52px; */
+    z-index: 3;
+}
+.image3{
+    position: relative;
+    left: -52px;
+    z-index: 2;
+}
+.image4{
+    position: relative;
+    left: -102px;
+    z-index: 1;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 15px solid lightblue;
+}
