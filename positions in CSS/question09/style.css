@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    margin: 25px;
+/* border: 2px solid red; */
+width: 300px;
+/* max-height: 50px; */
+}
+span{
+    font-size: 25px;
+    background-color: #FF6666;
+    padding: 38px;
+}
+select{
+    width: 300px;
+    font-size: 25px;
+    opacity: 0;
+}
+select option{
+    padding-bottom: 20px;
+}
+span,select:hover{
+    opacity: 1;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main_container{
+    background-color: #758283;
+    padding: 10px;
+}
+.main_heading{
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+
+.sub_container{
+    background-color: #FFFFFF;
+    width: 800px;
+    height: 500px;
+    padding-left: 15px;
+    position: absolute;
+    top: 10px;
+    left: 300px;
+}
+.sub_heading{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    border-bottom: 1px solid #758283;
+}
+
+.name{
+    padding-top: 25px ;
+    /* padding-bottom: 15px; */
+    border-bottom: 1px solid black;
+}
+input{
+    border: none;
+    outline: none;
+    height: 25px;
+
+}
+.email{
+    padding-top: 25px ;
+    /* padding-bottom: 15px; */
+    width: 49%;
+    float: left;
+    border-bottom: 1px solid black;
+}
+.contact{
+    float: right;
+    width: 49%;
+    padding-top: 25px ;
+    /* padding-bottom: 15px; */
+    border-bottom: 1px solid black;
+}
+.texarea{
+    padding-top: 25px;
+}
+.texarea textarea{
+    resize: none;
+    padding-top: 25px;
+    height: 150px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+.button{
+    padding-top: 30px;
+}
+.button button{
+    font-size: 15px;
+    padding: 10px 30px;
+    background-color: #5A4BDA;
+    color: white;
+    border-style: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
