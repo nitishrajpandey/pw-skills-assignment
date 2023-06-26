@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main h1{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.main_container{
+    border: 2px solid green;
+    display: grid;
+    height: 100vh;
+    grid-template-columns:repeat(8,1fr);
+    grid-template-rows:repeat(6,1fr);
+}
+
+
+
