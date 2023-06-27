@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* main container style */
+main h1 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+.main_container {
+  border: 2px solid green;
+  display: grid;
+  width: 100%;
+  height: 80vh;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  background-color: #5DA3FA;
+}
+.head_column {
+  border: 2px dotted black;
+  background-color: #FF6666;
+  font-weight: 600;
+}
+/* ******************************* */
+.rows{
+  background-color: #8D3DAF;
+  font-weight: 600;
+}
+p{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding-top: 25px;
+}
+.chemistry_lab,.biology_lab,.physics_lab{
+  background-color: #CAD5E2;
+}
+.english,.physics,.biology,.chemistry{
+  background-color: #03C6C7;
+}
+.let_free,.games{
+  background-color: #1FAA59;
+}
+.L,.U,.N,.C,.H,.Break{
+  background-color: #EDC126;
+}
+p{
+  /* padding-top: 50px; */
+  text-align: center;
+}
+
+
+
+
+
+
+
+/* ************************************* */
+/* each roy style */
+.mondayrow{
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-template-columns: repeat(6, 1fr) repeat(1, 2fr);
+}
+.mondayrow div{
+  border: 2px dotted black;
+}
+
+/* ************************************** */
+
+
+.tuesdayrow{
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-template-columns:1fr 2fr repeat(5, 1fr);
+}
+.tuesdayrow div{
+  border: 2px dotted black;
+}
+
+
+/* *************************************** */
+.wednesdayrow{
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-template-columns: repeat(6, 1fr) repeat(1, 2fr);
+}
+.wednesdayrow div{
+  border: 2px dotted black;
+}
+
+
+
+/* **************************************** */
+.thursdayrow{
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-template-columns:1fr 2fr repeat(5, 1fr);
+}
+.thursdayrow div{
+  border: 2px dotted black;
+}
+
+
+/* *************************************** */
+.fridayrow{
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-template-columns: repeat(6, 1fr) repeat(1, 2fr);
+}
+.fridayrow div{
+  border: 2px dotted black;
+}
+
+
+
+/* ***************************************** */
+.saturdayrow{
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-template-columns:1fr 2fr repeat(3, 1fr) repeat(1, 2fr);
+}
+.saturdayrow div{
+  border: 2px dotted black;
+}
+
+
+
+
+
