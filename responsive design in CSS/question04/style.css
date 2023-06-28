@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    color: white;
+    background-color: #1F1F1F;
+}
+main h1{
+    padding: 10px;
+    text-transform: capitalize;
+}
+.container1{
+    display:grid;
+    width: 900px;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin: 5% 10%;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+}
+.container1 p{
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+p{
+    padding: 5px;
+}
+.special{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+/* responsive design */
+
+@media screen and (max-width:640px) {
+  main{
+    overflow-x: scroll;
+  }
+}

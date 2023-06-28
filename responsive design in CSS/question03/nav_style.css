@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar layout******************************************** */
+.navbar {
+  display: grid;
+  grid-template-columns: 1.2fr 2fr 1fr;
+  grid-template-rows: 70px;
+  background-color: #242b2e;
+  margin: 1%;
+}
+/* logo design************************************************ */
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+.logo h1 {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  line-height: 0.8;
+  color: #0071e0;
+  cursor: pointer;
+}
+
+/* navigation link desing part ************************************* */
+
+.navigation_link ul {
+  display: flex;
+  /* justify-content:center; */
+  padding-left: 10%;
+  align-items: center;
+}
+.navigation_link ul li {
+  list-style: none;
+  padding: 3.8% 2%;
+}
+.navigation_link ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: white;
+}
+.navigation_link a:hover{
+  font-weight: bold;
+  font-size: 22px;
+  color: #bdb7b7;
+}
+
+/* login button desing part ******************************* */
+
+.button {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-right: 10%;
+}
+.button button {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 2% 13%;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  background-color: #0072e1;
+  cursor: pointer;
+}
+.button button:hover{
+  font-weight: bold;
+  font-size:20px ;
+  background-color: #394f66;
+}
+
+
+
+/* responsive style */
+
+.hamburger_menu {
+  display: none;
+} 
+@media screen and (max-width: 640px) {
+  .button {
+    display: none;
+  }
+  .logo h1{
+font-size: 20px;
+  }
+  .navigation_link {
+    display: none;
+  }
+  .hamburger_menu {
+    display: grid;
+    justify-content: flex-end;
+    grid-template-columns: 150px;
+    justify-self: end;
+    position: absolute;
+  }
+  input {
+    position: relative;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 50px;
+    width: 45px;
+    height: 30px;
+    z-index: 5;
+    opacity: 0;
+  }
+  .hamberguer_line {
+    position: absolute;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 50px;
+    width: 45px;
+    height: 30px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .hamberguer_line .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    background: #ffff;
+    border-radius: 10px;
+  }
+
+  .hamburger_menu ul {
+    padding-top: 50px;
+    display: block;
+    padding-right: 50px;
+  }
+  .hamburger_menu ul li {
+    list-style: none;
+    padding-bottom: 18px;
+  }
+  .hamburger_menu ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #ffff;
+    padding-left: 50px;
+  }
+  .menu_iteam {
+    visibility: hidden;
+    transform: translateZ(110%);
+    transition: transform 0.5s ease-in-out;
+    background: #242b2e;
+  }
+  button {
+    font-size: 25px;
+    margin-left: 20px;
+    padding: 0 25px;
+    background-color: #0072e1;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  .hamburger_menu input[type="checkbox"]:checked ~ .menu_iteam {
+    visibility: visible;
+    transform: translateZ(0%);
+  }
+}
