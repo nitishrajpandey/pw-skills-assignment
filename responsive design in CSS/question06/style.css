@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: #121315;
+    column-gap: 20px;
+    position:fixed;
+    bottom: 0;
+}
+.box{
+    margin: 80px 20px 30px 40px;
+}
+.box h2{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.box1 p{
+font-size: 20px;
+color: #b4b1b1;
+line-height: 1.3;
+}
+
+
+
+ ul li{
+    list-style: none;
+    padding-bottom: 20px;
+}
+ ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #b4b1b1;
+}
+
+.box4 input{
+    display: block;
+width: 300px;
+height: 50px;
+margin-bottom: 10px;
+background-color: #fff;
+border: none;
+border-radius: 5px;
+font-size: 20px;
+outline: none;
+padding-left: 50px;
+}
+
+.box4 button{
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    background-color: #1893F7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/* responsive design */
+
+@media screen and (max-width:950px){ 
+   .container1{
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    position: relative;
+    margin-top: 100px;
+   }
+   .box{
+    
+    width: 50%;
+    margin: 5% auto;
+   }
+}
