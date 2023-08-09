@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.main-body{
+    background-image: linear-gradient(to top,#290085 ,#519ACF );
+    height: 100vh;
+}
+.box{
+    color: white;
+    text-transform: capitalize;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.heading{
+    font-weight: 700;
+    font-size: 50px;
+}
+.sub-heading{
+    text-align: center;
+    padding-top: 15px;
+}
