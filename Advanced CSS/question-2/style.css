@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 700;
+    padding:20px 30px;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 40vh;
+    background-image: linear-gradient(to right,#DDA9EA,#963ED5);
+    color: white;
+}
