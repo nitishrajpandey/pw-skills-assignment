@@ -10,12 +10,13 @@
     padding: 25px 15px;
     background-image: linear-gradient(to top right,#45A4DD,#334EC1);
     border-radius: 10px;
+    transition-duration:2s;
 
 }
 .card:hover{
-    transition-duration:2s;
     transform:rotate(-33deg);
     transition-timing-function: ease-in-out ;
+    
 }
 .div1{
     display: flex;
