@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+        <h1 class="text-3xl font-bold capitalize text-center mb-8">Sign Up Form</h1>
+        <form action="" data-form="">
+            <div class="flex justify-between gap-5">
+
+                <label for="name" class="font-semibold uppercase">Name : </label>
+                <input type="text" id="name" placeholder="(Minimum 3 characters)" required
+                    class="outline-none border border-black text-center mb-4">
+            </div>
+
+            <div class="flex justify-between gap-5">
+
+                <label for="email" class="font-semibold uppercase">Email : </label>
+                <input type="email" id="email" placeholder="Enter your Email" required
+                    class="outline-none border border-black text-center mb-4">
+            </div>
+
+            <div class="flex justify-between gap-5">
+
+                <label for="password" class="font-semibold uppercase">Password : </label>
+                <input type="password" id="password" placeholder="(Minimum 8 characters)" required
+                    class="outline-none border border-black text-center mb-4">
+            </div>
+            <div class="flex justify-center mt-4">
+
+                <input type="submit" value="submit" class="px-6 py-2 rounded-md border border-black capitalize font-semibold bg-blue-300 text-red-600 ">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
