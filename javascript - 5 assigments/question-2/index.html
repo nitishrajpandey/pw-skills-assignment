@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex flex-col gap-10 border border-red-500 px-10 py-10 rounded-2xl bg-gray-200">
+        
+        <h1 class="font-bold text-2xl">generate a random number</h1>
+        <div class="flex justify-between gap-5">
+            <input class="border border-gray-400 py-3 rounded-md bg-gray-100  sm:text-xl text-center" type="number" value="" placeholder="Enter the delay time " data-delayTime="">
+            <button class="px-2 py-2 sm:px-4 sm:py-3 bg-slate-500 text-white rounded-xl font-bold capitalize" data-submitButton="">submit</button>
+
+        </div>
+
+        <div>
+            <p class="px-2 py-2 sm:px-5 sm:py-3 border sm:text-xl capitalize rounded-xl border-gray-400 text-center">
+                The left time : <span data-leftTime=""></span>
+            </p>
+        </div>
+
+        <div>
+            <input class=" w-full bg-gray-100 text-center px-2 py-2 sm:px-5 sm:py-3 font-bold border sm:text-xl capitalize rounded-xl outline-none border-gray-400" type="text" placeholder="Random number output screen" value="Random Number" data-outputArea="" readonly>
+        </div>
+    </div>
+</body>
+
+</html>
